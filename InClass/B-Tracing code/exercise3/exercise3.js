@@ -1,5 +1,5 @@
 const getRepos = function(repoName) {
-  return fetch('https://api.github.com/users/' + repoName + '/repos')  
+   fetch('https://api.github.com/users/' + repoName + '/repos')  
     .then(data => data.json())
     .then(function(response) {
       return response.map(function(rep) {

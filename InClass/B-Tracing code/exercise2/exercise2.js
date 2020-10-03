@@ -31,14 +31,18 @@ function removeVowelsForWords(words) {
 /*
   Task 1
   Let's trace this piece of code - what is the value of result with this input
+ 
+  _a_ue_
   */
   var result = removeVowels('samuel');
-
+  console.log(result);
 
 
 /*
 	Task 2
 	Trace what happens if we call the function removeVowelsForWords with this input: ["Irina", "Etza", "Daniel"]
-    expected output?:
+    expected output?: '__i_a', '___a', '_a_ie_'
 */
 
+let names=["Irina", "Etza", "Daniel"];
+console.log(removeVowelsForWords(names));

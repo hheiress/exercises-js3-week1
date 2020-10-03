@@ -13,7 +13,9 @@ function greetPeople(people) {
 
 /*
   Let's trace this piece of code - what is the value of result with this input
-  
+  Hello Irina
+  Hello IrinaAshleigh
+  Hello IrinaAshleighEtza
   */
   var mentors = ['Irina', 'Ashleigh', 'Etza'];
   var result = greetPeople(mentors)
